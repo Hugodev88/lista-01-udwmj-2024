@@ -1,12 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica ,Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.conteudo {
+    background-color: beige;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 #temporizador {
     font-size: 48px;
     margin-bottom: 20px;
 }
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -41,3 +56,4 @@ button {
     background-color: rgb(250, 250, 88);
     cursor: pointer;
 }
+
